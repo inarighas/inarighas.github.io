@@ -1,4 +1,4 @@
-baseURL: 'http://example.org/'
+baseURL: 'https://inarighas.github.io/my-personal-website/'
 languageCode: "en-us"
 title: "Ali's Personal Page"
 theme: hugo-profile
