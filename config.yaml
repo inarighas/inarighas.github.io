@@ -1,4 +1,4 @@
-baseURL: "https://inarighas.github.io/my-personal-website"
+baseURL: "/"
 languageCode: "en-us"
 title: "Ali's Personal Page"
 theme: hugo-profile
@@ -48,7 +48,7 @@ params:
   title: "Ali's personal page"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "img/fav.png"
+  favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -227,10 +227,7 @@ params:
           name: "Grenoble Institute of Technology "
           url: "https://phelma.grenoble-inp.fr/fr/formation/ingenieur-de-grenoble-inp-phelma-filiere-signal-image-communication-multimedia-sicom"
         date: "2014 - 2017"
-        # content: |-
-        #   Extracurricular Activities
-        #     - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        #     - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+
 
   # Achievements
   # achievements:
@@ -312,7 +309,7 @@ params:
     # btnName: Mail me
 
   footer:
-    recentPosts: True
+    recentPosts: false
     # socialNetworks:
     #   github: https://github.com
     #   linkedin: https://linkedin.com

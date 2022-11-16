@@ -2,7 +2,7 @@
 title: "My First Post"
 date: 2022-11-11T09:50:56+01:00
 author: Ali S.
-draft: true
+draft: false
 ---
 
 *Or how did I build this website?*
