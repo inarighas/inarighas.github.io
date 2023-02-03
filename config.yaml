@@ -48,7 +48,7 @@ params:
   title: "Ali's personal page"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/jellyfish.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -60,7 +60,7 @@ params:
 
   theme:
     disableThemeToggle: false
-    # defaultTheme: "light" # dark
+    defaultTheme: "dark" #
 
   font:
     fontSize: 1rem # default: 1rem
@@ -116,7 +116,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "files/CV_english.pdf"
+      url: "files/CV_AliSaghiran_en.pdf"
       download: true
     socialLinks:
       fontAwesomeIcons:
@@ -152,7 +152,7 @@ params:
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "Python, R, C/C++, Matlab, Julia"
-        - "Training ML models using Scikit-lear"
+        - "Training ML models using Scikit-learn"
         - "Deep learning using Pytorch, HuggingFace and tensorflow"
         - "Data viz and Dashboards using matplotlib, Bokeh, Streamlit etc.  "
 
