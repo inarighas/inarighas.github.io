@@ -49,7 +49,7 @@ params:
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
   favicon: "/jellyfish.png"
-
+  
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
   # Note the lack of "" in true, it should be of boolean type.
@@ -101,6 +101,7 @@ params:
   # Hero
   hero:
     enable: true
+    image: "profile.png"
     intro: "Hi, my name is"
     title: "Ali Saghiran."
     subtitle: "Welcome!"
@@ -137,7 +138,7 @@ params:
     enable: true
     font: sans-serif
     title: "A brief outline of my professional journey"
-    image: "/images/me.png"
+    # image: "jellyfish.png"
     content: |-
       I'm **Ali Saghiran**, I have studied signal processing at Grenoble Institute of Technology (Grenoble INP) and did my PhD
        in Computational modeling and cognitive science at Grenoble Alpes University.
@@ -164,7 +165,7 @@ params:
       - job: "Data Scientist - Voice Specialist "
         company: "Resileyes Tx"
         companyUrl: "https://www.resileyes.com/"
-        date: "Feb 2022 - present"
+        date: "Feb 2022 - Jan 2023"
         featuredLink:
           enable: true
           name: "View the project"
