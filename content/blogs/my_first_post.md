@@ -52,7 +52,7 @@ Once the theme is imported, you can start configuring the `config.yaml` (or `con
 Actually, the `config.toml` allows many options to customize your site. For this template, I'm using YAML format instead:
 
 ```yaml
-baseURL: "https://alisaghiran.github.io"
+baseURL: "https://inarighas.github.io"
 languageCode: "en-us"
 title: "Ali's Personal Page"
 theme: hugo-profile

@@ -96,7 +96,7 @@ The structural time series can be expressed in ARIMA form, and can be fit via ma
 
 ### Kalman Filter
 
-<img src="/img/Kalman_filter.jpg"  width="600" height="300" caption="The basic steps of Kalman filtering">
+![The basic steps of Kalman filtering](/img/Kalman_filter.jpg)
 
 The underlying model:
 
@@ -137,7 +137,7 @@ Where $f$ and $h$ can be non-linear functions, and $w_t$ and $v_t$ are noise ter
 
 ### Pseudo-code Implementation
 
-```{plain}
+```plaintext
 function PARTICLE_FILTER(observations, N_particles):
     # Initialize particles
     particles = sample_from_prior(N_particles)
@@ -183,7 +183,7 @@ Let's implement a concise practical example focusing on key time series analysis
 
 For any time series analysis, we start with visual exploration and decomposition:
 
-```{plain}
+```plaintext
 # Pseudo-code for time series decomposition
 function DECOMPOSE_TIME_SERIES(time_series):
     # Decompose into trend, seasonal, and residual components
@@ -221,7 +221,7 @@ Where:
 - $L$ is the lag operator
 - $(1-L)^d$ represents differencing of order $d$
 
-```{plain}
+```plaintext
 # Pseudo-code for ARIMA modeling
 function FIT_ARIMA(time_series, p, d, q):
     # Difference the series d times if needed
@@ -253,7 +253,7 @@ Where:
 - $\gamma_t$ represents cyclical variations
 - $\varepsilon_t, \eta_t, \zeta_t, \omega_t$ are noise terms
 
-```{plain}
+```plaintext
 # Pseudo-code for structural time series
 function FIT_STRUCTURAL_MODEL(time_series):
     # Initialize state components
@@ -286,7 +286,7 @@ Observation equation: $y_t = \begin{bmatrix} 1 & 0 \end{bmatrix} \mathbf{x}_t + 
 
 Where $\mathbf{w}_t \sim N(0, \mathbf{Q})$ and $v_t \sim N(0, R)$ are process and observation noise.
 
-```{plain}
+```plaintext
 # Pseudo-code for Kalman filter
 function KALMAN_FILTER(observations):
     # Initialize

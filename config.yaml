@@ -1,11 +1,10 @@
-baseURL: "https://alisaghiran.github.io"
+baseURL: "https://inarighas.github.io"
 languageCode: "en-us"
 title: "Ali's Personal Page"
 theme: hugo-profile
 
-Paginate: 3
-# disqusShortname: gurusabarish
-# googleAnalytics: G-DWJJVE27WD
+pagination:
+  pagerSize: 3
 
 markup:
   goldmark:
