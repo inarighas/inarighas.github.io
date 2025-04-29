@@ -1,4 +1,4 @@
-baseURL: "https://inarighas.github.io"
+baseURL: "https://alisaghiran.github.io"
 languageCode: "en-us"
 title: "Ali's Personal Page"
 theme: hugo-profile
@@ -141,26 +141,31 @@ params:
     content: |-
       I'm **Ali Saghiran**, I have studied signal processing at Grenoble Institute of Technology (Grenoble INP) and did my PhD
        in Computational modeling and cognitive science at Grenoble Alpes University.
-      During my PhD, I was interested in studying speech production and perception using bayesian/probabilistic modeling.
-      
+      During my PhD, I was interested in studying speech production and perception using bayesian/probabilistic modeling.      
       I had work experience in both academia, as research assistant/engineer, and in industry as a software engineer.
-      Currently, I am a Data Scientist and ML Engineer at ResileyesTx: I build and train models and pipelines for voice processing: automatic speech recognition & affective computing.  
-      Also, I contribute to FOSS in my spare time!
-    
-    skills:
-      enable: true
-      title: "Here are a few technologies I've been working with recently:"
-      items:
-        - "Python, R, C/C++, Matlab, Julia"
-        - "Training ML models using Scikit-learn"
-        - "Deep learning using Pytorch, HuggingFace and tensorflow"
-        - "Data viz and Dashboards using matplotlib, Bokeh, Streamlit etc.  "
+    # skills:
+    #   enable: true
+    #   title: "Here are a few technologies I've been working with recently:"
+    #   items:
+    #     - "Python, R, C/C++, Matlab, Julia"
+    #     - "Training ML models using Scikit-learn"
+    #     - "Deep learning using Pytorch, HuggingFace and tensorflow"
+    #     - "Data viz and Dashboards using matplotlib, Bokeh, Streamlit etc.  "
 
   # # Experience
   experience:
     enable: True
-    # title: "Custom Name"
     items:
+    - job: "Machine learning Engineer"
+        company: "ARaymond - RGPI"
+        companyUrl: "https://www.araymond.com/"
+        date: "Feb 2023 - present"
+        # content: |-
+        #   - I developped language and speech processing modules for a mental health app: speech-to-text, automatic voice feature extraction,
+        #   and emotion analysis APIs using deep learning models.
+        #   - I had to develop & evaluate ML models for mental health diagnosis.
+        Skills: Software Development · Python · Machine Learning ·
+        
       - job: "Data Scientist - Voice Specialist "
         company: "Resileyes Tx"
         companyUrl: "https://www.resileyes.com/"
@@ -169,11 +174,10 @@ params:
           enable: true
           name: "View the project"
           url: "https://www.resileyes.com/"
-        content: |-
-          - I developped language and speech processing modules for a mental health app: speech-to-text, automatic voice feature extraction,
-          and emotion analysis APIs using deep learning models.
-          - I had to develop & evaluate ML models for mental health diagnosis.
-        Skills: Software Development · Python (Programming Language) · Data Analysis · Machine Learning · Microservice development · Data vizualisation"
+        # content: |-
+        #   - I developped language and speech processing modules for a mental health app: speech-to-text, automatic voice feature extraction,
+        #   and emotion analysis APIs using deep learning models.
+        #   - I had to develop & evaluate ML models for mental health diagnosis.
 
       - job: "Research software Developer"
         company: "LPNC - CNRS"
@@ -186,8 +190,8 @@ params:
           enable: true
           content: As part of Fluence eFran project, I worked as a research engineer for more than 6 months.
         content: |-
-          - Development and documentation of the BRAID model (collection of simulation programs of visual word processing tasks).
-          - Probabilistic model programming and statistical analyses.
+          # - Development and documentation of the BRAID model (collection of simulation programs of visual word processing tasks).
+          # - Probabilistic model programming and statistical analyses.
           - Release of [BRAID & BRAID-Phon](https://gricad-gitlab.univ-grenoble-alpes.fr/diardj/braid) source code.
 
       - job: "Teaching assistant"
@@ -196,10 +200,10 @@ params:
         date: "Sep 2018 - May 2019"
         info:
           enable: true
-        content: |-
-          - Theoretical and practical courses at the Departments of Psychology & Mathematics
-          - Practical courses: 'Introductory course to computer Science and Algorithmics using Python' & 'Object-oriented programming with Java' ~ 45 hours.
-          - Courses and tutorials: 'Statistics and Data Analysis' ~ 35 hours.
+        # content: |-
+          # - Theoretical and practical courses at the Departments of Psychology & Mathematics
+          # - Practical courses: 'Introductory course to computer Science and Algorithmics using Python' & 'Object-oriented programming with Java' ~ 45 hours.
+          # - Courses and tutorials: 'Statistics and Data Analysis' ~ 35 hours.
 
   # Education
   education:
