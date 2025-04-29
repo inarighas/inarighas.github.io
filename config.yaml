@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://inarighas.github.io"
 languageCode: "en-us"
 title: "Ali's Personal Page"
 theme: hugo-profile
@@ -63,7 +63,7 @@ params:
 
   font:
     fontSize: 1rem # default: 1rem
-    fontWeight: 500 # default: 400
+    fontWeight: 400 # default: 400
     lineHeight: 1.25 # default: 1.5
     textAlign: left # default: left
 
@@ -116,7 +116,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "files/CV_AliSaghiran_en.pdf"
+      # url: "files/CV_AliSaghiran_en.pdf"
       download: true
     socialLinks:
       fontAwesomeIcons:
