@@ -143,20 +143,20 @@ params:
        in Computational modeling and cognitive science at Grenoble Alpes University.
       During my PhD, I was interested in studying speech production and perception using bayesian/probabilistic modeling.      
       I had work experience in both academia, as research assistant/engineer, and in industry as a software engineer.
-    # skills:
-    #   enable: true
-    #   title: "Here are a few technologies I've been working with recently:"
-    #   items:
-    #     - "Python, R, C/C++, Matlab, Julia"
-    #     - "Training ML models using Scikit-learn"
-    #     - "Deep learning using Pytorch, HuggingFace and tensorflow"
-    #     - "Data viz and Dashboards using matplotlib, Bokeh, Streamlit etc.  "
+  # skills:
+  #   enable: true
+  #   title: "Here are a few technologies I've been working with recently:"
+  #   items:
+  #     - "Python, R, C/C++, Matlab, Julia"
+  #     - "Training ML models using Scikit-learn"
+  #     - "Deep learning using Pytorch, HuggingFace and tensorflow"
+  #     - "Data viz and Dashboards using matplotlib, Bokeh, Streamlit etc.  "
 
   # # Experience
   experience:
     enable: True
     items:
-    - job: "Machine learning Engineer"
+      - job: "Machine learning Engineer"
         company: "ARaymond - RGPI"
         companyUrl: "https://www.araymond.com/"
         date: "Feb 2023 - present"
